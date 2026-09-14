@@ -1,0 +1,14 @@
+{
+  "repo": "geoqiao/paseo-stuff",
+  "path": "plugins/maka",
+  "categories": ["provider"],
+  "caveats": [
+    "Experimental: requires Paseo 0.8, Node >=22.19, and configured maka-agent 0.2.0-dev.31.20260913.",
+    "Match MaKa Desktop and CLI versions before running; a newer CLI can migrate their shared database.",
+    "Current MaKa ACP exposes no tool cards/results, MCP forwarding, interactive approvals, or usage updates.",
+    "Connected follow-ups work; session restoration after plugin reload or daemon restart is unavailable.",
+    "Uses MaKa's configured default model and permissions; Paseo custom system prompts/tool policy are not applied.",
+    "Verified on macOS; real MaKa on Windows/Linux and native mobile UI remain unverified."
+  ],
+  "submittedBy": "geoqiao"
+}
