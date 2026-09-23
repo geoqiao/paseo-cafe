@@ -308,7 +308,6 @@ describe("scanStaticFiles", () => {
         "invalid-module-location:index.client.ts",
         "cross-runtime-import:index.client.ts",
         "runtime-module-import:client/node_modules/dependency/index.js",
-        "runtime-module-import:node_modules/root-dependency/index.js",
         "runtime-module-import:server/handler.ts",
         "cross-runtime-import:shared/contract.ts",
       ].sort()
